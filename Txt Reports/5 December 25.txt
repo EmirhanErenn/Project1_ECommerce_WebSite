@@ -1,0 +1,6 @@
+-İngilizce ve Türkçe dil desteği
+-Teknoloji Mağazası
+-Admin Paneli (Yöneticinin her şeyi yönetebileceği bir panel)
+-SiteMap = Uğur  xml dosyası 
+-Ana Sayfa UI Tasarımı ve İşlevsellik = Emirhan
+-
