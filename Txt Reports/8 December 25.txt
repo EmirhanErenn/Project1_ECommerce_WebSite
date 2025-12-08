@@ -1,2 +1,4 @@
 - SiteMap'e başlandı.
 - Tasarımlara başlandı (assets/images)
+- Sitemap.xml dosyası oluşturuldu.
+- İlk commitler atıldı.
