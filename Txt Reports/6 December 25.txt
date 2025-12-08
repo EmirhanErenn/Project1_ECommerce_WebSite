@@ -1,0 +1,2 @@
+- SiteMap'e başlandı.
+- Tasarımlara başlandı (assets/images)
