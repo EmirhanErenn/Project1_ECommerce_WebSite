@@ -1,0 +1,7 @@
+- Backend ve Veri Tabanı Teknolojileri konusunda kararsızlık ortaya çıktı, araştırmadan sonra karar verilecek.
+- PHP kullanılmayacak
+- JS kullanılmayacak
+- Veri tabanının algoritması kısmen belirlendi.
+- Algoritma yazımına başlandı.
+
+	
