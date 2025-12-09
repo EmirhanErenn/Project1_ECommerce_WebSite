@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="E-Ticaret Platformu">
+    
+    <module type="public" name="Müşteri Arayüzü">
+        <page name="Ana Sayfa" route="/" />
+        
+        <section name="Auth İşlemleri">
+            <page name="Giriş Yap" route="/login" />
+            <page name="Kayıt Ol" route="/register" />
+            <page name="Şifremi Unuttum" route="/forgot-password" />
+        </section>
+
+        <section name="Ürün Gezintisi">
+            <page name="Ürünler" route="/products" />
+            <page name="Ürün Detay" route="/products/{id}" />
+            <page name="Kategoriler" route="/categories" />
+        </section>
+
+        <section name="Kullanıcı Özel">
+            <page name="Sepetim" route="/cart" />
+            <page name="Hesabım" route="/account">
+                <subpage name="Siparişlerim" />
+                <subpage name="Adreslerim" />
+            </page>
+        </section>
+    </module>
+
+    <module type="admin" name="Yönetim Paneli">
+        <page name="Admin Login" route="/admin/login" />
+        <page name="Dashboard" route="/admin/dashboard" />
+        
+        <section name="Ürün Yönetimi">
+            <page name="Ürün Listesi" route="/admin/products" />
+            <page name="Yeni Ürün Ekle" route="/admin/products/new" />
+            <page name="Kategori Yönetimi" route="/admin/categories" />
+        </section>
+
+        <section name="Sipariş Yönetimi">
+            <page name="Sipariş Listesi" route="/admin/orders" />
+            <page name="Sipariş Detayı" route="/admin/orders/{id}" />
+        </section>
+
+        <section name="Müşteri Yönetimi">
+            <page name="Müşteri Listesi" route="/admin/customers" />
+        </section>
+    </module>
+    
+</project>
