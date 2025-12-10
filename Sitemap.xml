@@ -1,48 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="E-Ticaret Platformu">
-    
-    <module type="public" name="Müşteri Arayüzü">
-        <page name="Ana Sayfa" route="/" />
-        
-        <section name="Auth İşlemleri">
-            <page name="Giriş Yap" route="/login" />
-            <page name="Kayıt Ol" route="/register" />
-            <page name="Şifremi Unuttum" route="/forgot-password" />
-        </section>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-        <section name="Ürün Gezintisi">
-            <page name="Ürünler" route="/products" />
-            <page name="Ürün Detay" route="/products/{id}" />
-            <page name="Kategoriler" route="/categories" />
-        </section>
+  <!-- MÜŞTERİ ARAYÜZÜ  -->
+  <url>
+    <loc>https://www.kesemtechnologies.com/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
 
-        <section name="Kullanıcı Özel">
-            <page name="Sepetim" route="/cart" />
-            <page name="Hesabım" route="/account">
-                <subpage name="Siparişlerim" />
-                <subpage name="Adreslerim" />
-            </page>
-        </section>
-    </module>
+  <url>
+    <loc>https://www.kesemtechnologies.com/arama</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
 
-    <module type="admin" name="Yönetim Paneli">
-        <page name="Admin Login" route="/admin/login" />
-        <page name="Dashboard" route="/admin/dashboard" />
-        
-        <section name="Ürün Yönetimi">
-            <page name="Ürün Listesi" route="/admin/products" />
-            <page name="Yeni Ürün Ekle" route="/admin/products/new" />
-            <page name="Kategori Yönetimi" route="/admin/categories" />
-        </section>
+  <url>
+    <loc>https://www.kesemtechnologies.com/kategoriler</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
 
-        <section name="Sipariş Yönetimi">
-            <page name="Sipariş Listesi" route="/admin/orders" />
-            <page name="Sipariş Detayı" route="/admin/orders/{id}" />
-        </section>
+  <!-- Ürün Detay Sayfaları (Dinamik) -->
+  <!-- Burada her bir ürün için ayrı URL olmalı. -->
+  <url>
+    <loc>https://www.kesemtechnologies.com/urun/ornek-urun-adi</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
 
-        <section name="Müşteri Yönetimi">
-            <page name="Müşteri Listesi" route="/admin/customers" />
-        </section>
-    </module>
-    
-</project>
+  <!-- Giriş/Üye Ol -->
+  <url>
+    <loc>https://www.kesemtechnologies.com/giris-yap</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://www.kesemtechnologies.com/uye-ol</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://www.kesemtechnologies.com/sifremi-unuttum</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+  <!-- Profil & Sipariş -->
+  <url>
+    <loc>https://www.kesemtechnologies.com/profilim</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.kesemtechnologies.com/siparislerim</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.kesemtechnologies.com/adreslerim</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.kesemtechnologies.com/favorilerim</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.kesemtechnologies.com/degerlendirmelerim</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.kesemtechnologies.com/hesap-ayarlari</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- Sepet & Ödeme -->
+  <url>
+    <loc>https://www.kesemtechnologies.com/sepet</loc>
+    <changefreq>always</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.kesemtechnologies.com/odeme</loc>
+    <changefreq>always</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Statik Sayfalar -->
+  <url>
+    <loc>https://www.kesemtechnologies.com/hakkimizda</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.kesemtechnologies.com/iletisim</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.kesemtechnologies.com/sss</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.kesemtechnologies.com/yasal-bilgiler</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- UTILITY PAGES (Hata Sayfaları) -->
+  <url>
+    <loc>https://www.kesemtechnologies.com/404</loc>
+    <changefreq>never</changefreq>
+    <priority>0.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.kesemtechnologies.com/500</loc>
+    <changefreq>never</changefreq>
+    <priority>0.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.kesemtechnologies.com/bakim</loc>
+    <changefreq>never</changefreq>
+    <priority>0.0</priority>
+  </url>
+
+
+</urlset>
