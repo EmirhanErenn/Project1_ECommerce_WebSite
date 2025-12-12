@@ -1,2 +1,3 @@
--Branchler belirlendi
+-Branchler belirlendi ve oluşturuldu
 -Kullanılacak teknolojiler belirlendi
+-Veritabanı tasarımına başlandı
